@@ -24,7 +24,7 @@ RUN pip install torch==2.6.0 torchvision==0.21 torchaudio==2.6.0 --index-url htt
 ARG COMFYUI_VERSION
 ARG COMFYUI_MANAGER_VERSION
 
-RUN apt install -y git
+RUN apt install -y git python3-git
 # clone ComfyUI
 RUN git clone https://github.com/comfyanonymous/ComfyUI.git \
     && cd ComfyUI \
