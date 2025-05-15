@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/kmbae/comfyui-onprem-k8s
+  repository: ghcr.io/dermodmaster/comfyui-onprem-k8s
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "Comfyui-v0.3.14-ComfyuiManager-3.23"
+  tag: "Comfyui-v0.3.34-ComfyuiManager-3.32.2"
 
 imagePullSecrets: []
 nameOverride: ""
