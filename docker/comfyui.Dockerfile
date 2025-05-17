@@ -8,7 +8,7 @@ WORKDIR /home/workspace
 # python
 RUN apt-get update 
     #&& apt-get install -y mesa-utils libgl1-mesa-dri libgtkgl2.0-dev libgtkglext1-dev git software-properties-common apt-utils \
-RUN apt-get install -y build-essential curl python3-pip vim htop tmux
+RUN apt-get install -y build-essential curl python3-pip vim htop tmux ffmpeg libsm6 libxext6
     #&& add-apt-repository ppa:deadsnakes/ppa \
     #a&& apt-get update \
     #&& apt install -y python3.10 python3.10-distutils curl \
